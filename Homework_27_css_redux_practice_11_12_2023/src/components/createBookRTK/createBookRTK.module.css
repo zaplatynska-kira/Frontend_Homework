@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+ flex-direction: column;
+ align-items: center;
+ 
+ }
+ 
+ .button {
+     background-color: rgb(2, 154, 50);
+     color: #ffffff;
+     margin: 5px 5px 0px 0px;
+     width: 100px;
+     height: 25px;
+     border-radius: 1ex;
+     }
+     .button:hover{
+         background-color: #ffffff;
+         color: #089003;
+     }
+
+     .heading{
+        background-color: red;
+        color: rgb(255, 255, 255);
+        border: 2px solid;
+        border-radius: 1ex;
+    
+    }

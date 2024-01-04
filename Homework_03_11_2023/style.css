@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #0192af;
+}
+
+form {
+    width: 20%;
+    margin: 0 auto; 
+    padding: 20px;
+    border: 1px solid #0192af;
+    background-color: white;
+}
+
+
+
+button {
+    color: #0192af;
+    background-color: white;
+    border: 1px solid #025a6c;
+    padding: 10px 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    color: #038164;
+}
+main .bg-color > p {
+font-style: italic;
+}
+    
+p.color{
+    color: rgb(5, 124, 90);
+}
+section{
+    border: 3px solid #038164;;
+    margin: 10px20px;
+    padding: 0 20px;
+}
+

@@ -1,0 +1,19 @@
+.container {
+   display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.button {
+    background-color: red;
+    color: #ffffff;
+    margin: 5px 5px 0px 0px;
+    width: 100px;
+    height: 25px;
+    border-radius: 1ex;
+    }
+    .button:hover{
+        background-color: #ffffff;
+        color: #000;
+    }

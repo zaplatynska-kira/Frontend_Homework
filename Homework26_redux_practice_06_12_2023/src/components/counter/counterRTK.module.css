@@ -1,0 +1,27 @@
+.button {
+background-color: red;
+color: #ffffff;
+margin: 5px 5px 0px 0px;
+width: 70px;
+height: 25px;
+border-radius: 3em;
+}
+.button:hover{
+    background-color: #ffffff;
+    color: #000;
+
+}
+.contanier{
+    background-color: rgb(181, 179, 177);
+    margin: auto;
+   text-align: center; 
+box-sizing:border-box ;
+border-radius: 2px ;
+}
+.heading{
+    background-color: red;
+    color: rgb(255, 255, 255);
+    border: 2px solid;
+    border-radius: 3em;
+
+}

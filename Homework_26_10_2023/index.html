@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Heat pump</title>
+</head>
+<body>
+    <h1>Heat pump - heating without gas</h1>
+    <h2>Fill in the form and get a free consultation from our expert</h2>
+    <form action="/registration">
+        <label for="name">Name</label>
+        <input type="text"
+        placeholder="Enter you name..."
+        id="name"
+        required
+        />
+        <label for="phone">Phone</label>
+        <input
+         type="tel"
+         id="phone"
+         pattern="[+]{1}[0-9]{3}-[0-9]{3}-[0-9]{4}"
+         placeholder="Example: +123-456-7890"
+         required
+         />
+        
+         <label for="premises">Type of premises:</label>
+         <select id="premises" required>
+             <option value="">Enter type of premises...</option>
+             <option value="commercial premises ">commercial premises </option>
+             <option value="residential premises">residential premises</option>
+             <option value="no">Not on this list</option>
+         </select>
+
+         <label for="area"> Area of premises m² :</label>
+         <input
+         type="area"
+         id="area"
+         pattern="[0-500]{1}"
+         placeholder="Example: 100 m²"
+         required
+         />
+         <button type="reset">Reset</button>
+         <button type="submit">Submit</button>
+
+    </form>
+</body>
+</html>
